@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "jest": "^24.8.0",
+    "mathjs": "^6.0.4"
+  },
+  "name": "memory-jest-mathjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "tests-with-mathjs": "node node_modules/.bin/jest ./tests-with-mathjs --runInBand --logHeapUsage",
+    "tests-without-mathjs": "node node_modules/.bin/jest ./tests-without-mathjs --runInBand --logHeapUsage"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
